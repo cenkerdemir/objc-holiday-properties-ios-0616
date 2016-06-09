@@ -6,11 +6,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-/**
- 
- *  Add a new property here.
- 
- */
+//added for the lab
+@property (strong,nonatomic) NSDictionary *database;
 
 - (NSArray *)holidaysInSeason:(NSString *)season;
 
